@@ -13,7 +13,7 @@ import { posts } from '@/lib/data/mock';
  * @returns Array of recommended Post objects
  */
 export function getRecommendations(currentSlug?: string, limit: number = 3): Post[] {
-  // Filter out the current post if specified
+  // Filter out the current post if specified minor comment refresh
   let candidates = posts.filter((post) => post.slug !== currentSlug);
 
   // If we have a current post, prioritize by tag overlap + recency
