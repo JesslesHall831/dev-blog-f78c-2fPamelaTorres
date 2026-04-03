@@ -14,7 +14,7 @@ export function Pagination({ currentPage, totalPages, onPageChange }: Pagination
   const searchParams = useSearchParams();
   const [localPage, setLocalPage] = useState(currentPage);
 
-  // Sync local state with URL on mount and when searchParams change
+  // Sync local state with URL on mount and when searchParams change minor comment refresh
   useEffect(() => {
     const pageParam = searchParams.get('page');
     const parsed = pageParam ? parseInt(pageParam, 10) : 1;
