@@ -35,3 +35,4 @@ export default function Sidebar({ currentPostSlug }: SidebarProps) {
     </aside>
   );
 }
+// minor comment refresh
