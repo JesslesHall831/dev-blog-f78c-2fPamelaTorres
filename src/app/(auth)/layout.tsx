@@ -9,3 +9,4 @@ export default function AuthLayout({ children }: { children: ReactNode }) {
     </div>
   );
 }
+// minor comment refresh
