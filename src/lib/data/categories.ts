@@ -30,3 +30,4 @@ export function isValidCategorySlug(slug: string): boolean {
   return categories.some((cat) => cat.slug === slug);
 }
 // minor comment refresh
+// minor comment refresh
