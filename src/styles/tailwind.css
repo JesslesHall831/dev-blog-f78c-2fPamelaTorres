@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Add custom base styles here if needed */
+/* For example, to reset default link behavior or set font-family globally */
+/*
+@layer base {
+  a {
+    @apply text-blue-600 hover:underline;
+  }
+}
+*/

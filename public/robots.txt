@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://dev-blog-f78c-2fPamelaTorres.vercel.app/sitemap.xml
+
+# Disallow crawling of Next.js internals
+Disallow: /_next/
+Disallow: /favicon.ico
+Disallow: /vercel.svg
+
+# Allow production-only indexing
+# This file is served as-is in production; no runtime injection
