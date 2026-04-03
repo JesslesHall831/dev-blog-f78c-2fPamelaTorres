@@ -7,7 +7,7 @@ const MOCK_USERS = [
   { id: 'usr_2', email: 'editor@example.com', password: 'password123', name: 'Editor User' },
 ];
 
-// Request validation schema
+// Request validation schema minor comment refresh
 const LoginRequestBodySchema = z.object({
   email: z.string().email('Invalid email address'),
   password: z.string().min(1, 'Password is required'),
