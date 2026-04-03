@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { z } from 'zod';
 
-// Mock user database (in real app: DB lookup)
+// Mock user database (in real app: DB lookup) minor comment refresh
 const MOCK_USERS = [
   { id: 'usr_1', email: 'admin@example.com', password: 'password123', name: 'Admin User' },
   { id: 'usr_2', email: 'editor@example.com', password: 'password123', name: 'Editor User' },
